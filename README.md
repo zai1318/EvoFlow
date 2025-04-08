@@ -1,5 +1,5 @@
 
-# EvoFlow: A Robust Optimizer for Deep Learning via Gradient Consistency and Evolutionary Strategies
+# EvoFlow: An Optimizer for Deep Learning (Anonymized Submission)
 
 Submitted to 39th Conference on Neural Information Processing Systems (NeurIPS 2025)
 
@@ -99,10 +99,10 @@ This project is licensed under the MIT License (see `LICENSE` file).
 ## Citation
 Please cite this work as:
 ```
-@article{evoflow_neurips2025,
-  title={EvoFlow: A Robust Optimizer for Deep Learning via Gradient Consistency and Evolutionary Strategies},
+@article{evoflow2025anonymous,
+  title={EvoFlow: An Optimizer for Deep Learning},
   author={Anonymous},
-  journal={Submitted to 39th Conference on Neural Information Processing Systems (NeurIPS 2025)},
+  journal={Anonymous submission to NeurIPS 2025},
   year={2025}
 }
 HEAD
