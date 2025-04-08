@@ -20,7 +20,7 @@ This repository implements EvoFlow, a hybrid optimizer that enhances convergence
 Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/zai1318/EvoFlow.git
-cd EvoFlow-Optimizer
+cd EvoFlow
 pip install -r requirements.txt
 ```
 
@@ -47,11 +47,11 @@ Download datasets:
 
 - **Image Classification (ResNet-18 on CIFAR-10)**:
   ```bash
-  cd EvoFlow-Optimizer/renet_EvoFlow
+  cd EvoFlow/resnet_EvoFlow
   python train.py
   ```
   - Trains ResNet-18 with five optimizers (EvoFlow, AdamW, SGD, RAdam, RMSProp) sequentially, each for 100 epochs with a batch size of 128, using standard augmentation (random cropping, flipping, normalization).
-  - Uses CIFAR-10 files in `EvoFlow-Optimizer/renet_EvoFlow`.
+  - Uses CIFAR-10 files in `EvoFlow/resnet_EvoFlow`.
   - Outputs:
     - Console: Training loss per epoch, final top-1/top-5 accuracy, inference time, and a comparison table.
     - Files: `optimizer_comparison.yaml` (results), `training_loss_comparison.png` (loss plot).
